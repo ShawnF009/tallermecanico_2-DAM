@@ -15,7 +15,7 @@
       </ImageView>
       <Label style="-fx-font: 25 Arial;" text="Módulo Programación - JavaFX" />
       <Label style="-fx-font: 20 Arial;" text="Gestión de un Taller Mecánico" />
-      <Label style="-fx-font: 20 Arial;" text="José Ramón Jiménez Reyes" />
+      <Label style="-fx-font: 20 Arial;" text="Antonio Manuel Cadenas Ruzafa" />
    </children>
    <padding>
       <Insets left="20.0" right="20.0" top="20.0" />

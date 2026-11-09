@@ -16,16 +16,17 @@ public class Main {
 
     private static Pair<FabricaVista, FabricaFuenteDatos> procesarArgumentos(String[] args) {
         FabricaVista fabricaVista = FabricaVista.VENTANAS;
-        FabricaFuenteDatos fabricaFuenteDatos = FabricaFuenteDatos.FICHEROS_XML;
+        FabricaFuenteDatos fabricaFuenteDatos = FabricaFuenteDatos.FICHEROS_JSON;
         for (String argumento : args) {
             if (argumento.equalsIgnoreCase("-vventanas")) {
                 fabricaVista = FabricaVista.VENTANAS;
             } else if (argumento.equalsIgnoreCase("-vtexto")) {
                 fabricaVista = FabricaVista.TEXTO;
+            } else if (argumento.equalsIgnoreCase("-fdficherosjson")) {
+                fabricaFuenteDatos = FabricaFuenteDatos.FICHEROS_JSON;
             } else if (argumento.equalsIgnoreCase("-fdficherosxml")) {
                 fabricaFuenteDatos = FabricaFuenteDatos.FICHEROS_XML;
             }
-
         }
         return new Pair<>(fabricaVista, fabricaFuenteDatos);
     }
