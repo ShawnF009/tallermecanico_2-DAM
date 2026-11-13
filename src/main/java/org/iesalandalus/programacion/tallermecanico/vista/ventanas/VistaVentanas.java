@@ -73,7 +73,7 @@ public class VistaVentanas implements Vista {
 
     @Override
     public void terminar() {
-        System.out.println("Venga chavales, por la sombra!!!");
+        System.out.println("Hasta luego Lucasss!!!");
     }
 
     @Override

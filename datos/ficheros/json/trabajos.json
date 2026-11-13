@@ -1,0 +1,31 @@
+[ {
+  "tipo" : "Revision",
+  "cliente" : {
+    "nombre" : "Patricio Estrella",
+    "dni" : "11111111H",
+    "telefono" : "950111111"
+  },
+  "vehiculo" : {
+    "marca" : "Seat",
+    "modelo" : "León",
+    "matricula" : "1111BBB"
+  },
+  "fechaInicio" : "2025-11-01",
+  "horas" : 24
+}, {
+  "tipo" : "Mecanico",
+  "cliente" : {
+    "nombre" : "Bob Esponja",
+    "dni" : "11223344B",
+    "telefono" : "950112233"
+  },
+  "vehiculo" : {
+    "marca" : "Renault",
+    "modelo" : "Megane",
+    "matricula" : "2222CCC"
+  },
+  "fechaInicio" : "2025-10-30",
+  "fechaFin" : "2025-11-02",
+  "horas" : 11,
+  "precioMaterial" : 12.0
+} ]
